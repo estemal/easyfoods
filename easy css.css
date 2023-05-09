@@ -19,7 +19,7 @@ body {
 	padding: 30px 10px;
 	text-align:center, start;
 	box-shadow: 10px, 10px, 10px;
-
+	padding-bottom:  0px;
 }
 
 h1 {
@@ -39,10 +39,14 @@ h2 {
 
 h3 {
 	text-align: center;
+	font-style: inherit;
+	font-weight: 200;
+	text-decoration: underline;
+	font-size:xx-large;
 }
 
 .banner-wrap p {
-	font-style: italic;
+	font-style: oblique;
 	color: rgb(255, 255, 255);
 	font-size: 28px;
 	opacity: 0.8;
@@ -50,15 +54,14 @@ h3 {
 }
 
 
-
 .cards-wrap {
-	font-style: ;
 	background-color: transparent;
 	width: 1200px;
-	margin: 0px auto;
+	margin: 20px auto;
 	border-radius: 5px;
-	padding: 0px;
+	padding: 50px;
 	padding-bottom: 50px;
+	padding-top: 0px;
 	box-shadow: 10px 10px 10px black;
 }
 
@@ -91,7 +94,7 @@ h3 {
 	width: 50px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-between;
 	
 }
 
